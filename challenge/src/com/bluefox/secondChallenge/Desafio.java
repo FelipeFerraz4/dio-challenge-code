@@ -49,7 +49,7 @@ class ContaPoupanca extends ContaBancaria {
 
   @Override
   public void exibirInformacoes() {
-    DecimalFormat decimalFormat = new DecimalFormat("#.0");
+    // DecimalFormat decimalFormat = new DecimalFormat("#.0");
     super.exibirInformacoes();
     System.out.println(String.format("Taxa de juros: %.1f%%", taxaJuros).replace(",", "."));
   }
